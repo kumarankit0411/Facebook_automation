@@ -2,6 +2,12 @@
 
 Allows you to browse and navigate facebook using voice command leveraging the power of Google Speech Recognition API
 
+## Work Done
+Can scroll pages using voice commands
+
+## To-Do
+A lot
+
 ## Dependancies
 - Selenium
 - speech_recognition
