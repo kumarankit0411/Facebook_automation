@@ -3,15 +3,15 @@ import os
 from selenium import webdriver
 import time
 
-path = '/Users/ankitkrsingh/Desktop/code/FunScripts/sivraj/chromedriver'
+path = '/Users/ankitkrsingh/Desktop/code/FunScripts/sivraj/chromedriver' # change this accordingly
 driver = webdriver.Chrome(path)
 
 def openPage():
     global driver
     driver.get('https://www.facebook.com')
     driver.implicitly_wait(10)
-    driver.find_element_by_id('email').send_keys('livingforsuccess@gmail.com')
-    driver.find_element_by_id('pass').send_keys('1allis.well')
+    driver.find_element_by_id('email').send_keys('your username')
+    driver.find_element_by_id('pass').send_keys('your password')
     driver.find_element_by_xpath("//input[@value='Log In']").click()
    
 
